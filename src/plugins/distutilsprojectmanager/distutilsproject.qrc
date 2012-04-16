@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/distutilsproject">
+        <file>DistutilsProject.mimetypes.xml</file>
+    </qresource>
+</RCC>

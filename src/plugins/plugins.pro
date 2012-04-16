@@ -44,7 +44,8 @@ SUBDIRS   = plugin_coreplugin \
             plugin_remotelinux \
             plugin_madde \
             plugin_valgrind \
-            plugin_todo
+            plugin_todo \
+            plugin_distutilsprojectmanager
 
 isEmpty(IDE_PACKAGE_MODE) {
     SUBDIRS += plugin_helloworld \
@@ -315,3 +316,8 @@ plugin_todo.depends = plugin_coreplugin
 plugin_todo.depends += plugin_projectexplorer
 plugin_todo.depends += plugin_texteditor
 plugin_todo.depends += plugin_cpptools
+
+plugin_distutilsprojectmanager.subdir = distutilsprojectmanager
+plugin_autotoolsprojectmanager.depends = plugin_projectexplorer
+plugin_autotoolsprojectmanager.depends += plugin_coreplugin
+plugin_autotoolsprojectmanager.depends += plugin_cpptools
