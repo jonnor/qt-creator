@@ -42,9 +42,6 @@
 #include <QStringList>
 #include <QLatin1String>
 #include <QDateTime>
-#include <QScriptEngine>
-#include <QScriptValue>
-#include <QScriptValueIterator>
 
 namespace Utils {
 
