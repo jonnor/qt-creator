@@ -37,4 +37,5 @@ RESOURCES += distutilsproject.qrc
 
 OTHER_FILES += DistutilsProjectManager.pluginspec.in \
           DistutilsProject.mimetypes.xml \
-          distutils_extract.py
+          distutils_extract.py \
+    README.txt
